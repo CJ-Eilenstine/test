@@ -1,0 +1,25 @@
+.homeNav {
+  height: 50px;
+  width: 100%;
+
+  background-color: lightslategray;
+}
+
+.homeNav ul {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.homeNav ul li {
+  list-style: none;
+}
+
+.homeNav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
