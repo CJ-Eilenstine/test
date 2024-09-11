@@ -1,6 +1,7 @@
-Contributors:
+# CJ Eilenstine
 
-1. CJ Eilenstine
+## URL: https://test-vert-phi-44.vercel.app/
 
-Devolopment:
-Use of inline and modular styling.
+## Description:
+
+Created Next.js app, used modular and inline styling. App was showcasing Mistborn Era 1 Trilogy.
