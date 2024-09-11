@@ -2,6 +2,11 @@
 import homeStyles from "@/app/page.module.css";
 
 export default function Home() {
+  const footerStyle = {
+    height: "10vh",
+    backgroundColor: "lightslategray",
+  };
+
   return (
     <main>
       <nav className={homeStyles.homeNav}>
@@ -17,6 +22,13 @@ export default function Home() {
           </li>
         </ul>
       </nav>
+      <section
+        style={{
+          height: "80vh",
+          backgroundColor: "blanchedalmond",
+        }}
+      ></section>
+      <footer style={footerStyle}></footer>
     </main>
   );
 }
