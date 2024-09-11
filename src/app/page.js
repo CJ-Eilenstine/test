@@ -25,9 +25,70 @@ export default function Home() {
       <section
         style={{
           height: "80vh",
-          backgroundColor: "blanchedalmond",
+
+          padding: "10vh",
         }}
-      ></section>
+      >
+        <h1 style={{ fontFamily: "helvetica" }}>
+          Mistborn Era 1 LeatherBounds
+        </h1>
+        <div
+          style={{
+            height: "200px",
+            width: "100%",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            marginTop: "100px",
+          }}
+        >
+          <div>
+            <h3 style={{ fontFamily: "helvetica" }}>
+              Mistborn The Final Empire LeatherBound
+            </h3>
+            <p style={{ fontWeight: "600", fontFamily: "helvetica" }}>$125</p>
+            <img
+              src="//www.dragonsteelbooks.com/cdn/shop/files/Mistborn_Back_Standing.jpg?"
+              style={{
+                width: "120px",
+                height: "120px",
+                border: "solid 1px black",
+                borderRadius: "20px",
+              }}
+            />
+          </div>
+          <div>
+            <h3 style={{ fontFamily: "helvetica" }}>
+              Mistborn The Well of Ascension LeatherBound
+            </h3>
+            <p style={{ fontWeight: "600", fontFamily: "helvetica" }}>$125</p>
+            <img
+              src="//www.dragonsteelbooks.com/cdn/shop/files/WOA_Back_Standing.jpg?"
+              style={{
+                width: "120px",
+                height: "120px",
+                border: "solid 1px black",
+                borderRadius: "20px",
+              }}
+            />
+          </div>
+          <div>
+            <h3 style={{ fontFamily: "helvetica" }}>
+              Mistborn The Hero of Ages LeatherBound
+            </h3>
+            <p style={{ fontWeight: "600", fontFamily: "helvetica" }}>$125</p>
+            <img
+              src="//www.dragonsteelbooks.com/cdn/shop/files/HOA_Front_Standing.jpg?"
+              style={{
+                width: "120px",
+                height: "120px",
+                border: "solid 1px black",
+                borderRadius: "20px",
+              }}
+            />
+          </div>
+        </div>
+      </section>
       <footer style={footerStyle}></footer>
     </main>
   );
